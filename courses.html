@@ -1,0 +1,186 @@
+<!DOCTYPE html> <!-- Talar om att dokuentet är ett HTML-dokument, svensk sida -->
+<html lang="sv">
+
+<!-- Sidans titel inklusive osynlig metadata. Styletagg för att stylea tabellens utseende med fast bredd och borders -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurser</title>
+    <style>
+        table {width:500px; border: 1px solid;}
+        thead, th, tr, td {border: 1px solid;}
+    </style>
+</head>
+
+<!-- Dokumentets kropp, allt här visas -->
+
+<body>
+
+    <!-- En header med navigationslänkar (o-ordnad lista) till respektive webbsida och en logotyp med bestämd storlek -->
+    <header>
+        <a href="index.html" title="Startsidan"><img src="logo.svg" alt="Logotyp" width="200" height="50"></a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Startsida</a>
+                </li>
+                <li>
+                    <a href="courses.html">Kurser</a>
+                </li>
+                <li>
+                    <a href="pictures.html">Bilder</a>
+                </li>
+                <li>
+                    <a href="contact.html">Kontakt</a>
+                </li>
+                <li>
+                    <a href="about.html">Om</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sektion med huvudinnehåll där huvudrubrik och tabeller ligger. -->
+    <section>
+        <h1>Kurser</h1>
+
+        <!-- Tabell -->
+        <table>
+
+            <!-- Tabellhuvud i en rad med 3 rubriker/kolumner -->
+            <thead>
+                <tr>
+                    <th>Kurskod</th>
+                    <th>Kursnamn</th>
+                    <th>Progression</th>
+                </tr>
+            </thead>
+
+            <!-- Tabellkropp med 8 rader och 3 kolumner i varje innehållande data. -->
+            <tbody>
+
+                <tr>
+                    <td>DT057G</td>
+                    <td>Webbutveckling 1</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>DT084G</td>
+                    <td>Introduktion till programmering i JavaScript</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>DT200G</td>
+                    <td>Grafisk teknik för webb</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>DT068G</td>
+                    <td>Webbanvändbarhet</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>DT003G</td>
+                    <td>Databaser</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>DT211G</td>
+                    <td>Frontend-baserad webbutveckling</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>DT207G</td>
+                    <td>Backend-baserad webbutveckling</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>DT208G</td>
+                    <td>Programmering i TypeScript</td>
+                    <td>B</td>
+                </tr>
+
+            </tbody>
+
+            <!-- Tabellfot innehållande data som täcker alla 3 kolumner. -->
+            <tfoot>
+                <tr>
+                    <td colspan="3">Läsår 1</td>
+                </tr>
+            </tfoot>
+
+        </table><br>
+
+        <!-- Tabell -->
+        <table>
+
+            <!-- Tabellhuvud i en rad med 3 rubriker/kolumner -->
+            <thead>
+                <tr>
+                    <th>Kurskod</th>
+                    <th>Kursnamn</th>
+                    <th>Progression</th>
+                </tr>
+            </thead>
+
+            <!-- Tabellkropp med 7 rader och 3 kolumner i varje innehållande data. -->
+            <tbody>
+                <tr>
+                    <td>IK060G</td>
+                    <td>Projektledning</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>DT071G</td>
+                    <td>Programmering i C#.NET</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>DT193G</td>
+                    <td>Fullstack-utveckling med ramverk</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>DT209G</td>
+                    <td>Webbutveckling för WordPress</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>DT191G</td>
+                    <td>Webbutveckling med .NET</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>DT210G</td>
+                    <td>Fördjupad frontend-utveckling</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>DT140G</td>
+                    <td>Självständigt arbete</td>
+                    <td>B</td>
+                </tr>
+
+            </tbody>
+
+            <!-- Tabellfot innehållande data som täcker alla 3 kolumner. -->
+            <tfoot>
+                <tr>
+                    <td colspan="3">Läsår 2</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </section>
+
+    <!-- Sidfot med information om kurs, namn, datum samt e-postadress med mailto link. -->
+    <footer>
+        <p>DTO57G Webbutveckling 1 | Isa Westling | 2023-09-07 | <a
+                href="mailto:isawestling@hotmail.com">isawestling@hotmail.com</a></p>
+    </footer>
+
+</body>
+
+</html>
